@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+<!--
+    Name: Harmanpreet singh 
+    File: index.html
+    Date: 11 July 2026
+    Structuring content into the given format using JS.-->
+<h1>Image gallery example</h1>
+
+<div class="full-img">
+  <img
+    class="displayed-img"
+    src="https://mdn.github.io/shared-assets/images/examples/learn/gallery/pic1.jpg"
+    alt="Closeup of a human eye" />
+  <div class="overlay"></div>
+  <button class="dark">Darken</button>
+</div>
+
+<div class="thumb-bar"></div>
+<script src="script.js"></script>
