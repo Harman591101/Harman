@@ -18,7 +18,7 @@ const baseURL =
 
 // Loop through the images and build a thumbnail for each one
 for (const image of images) {
-  // Create a new image element
+  // Create a new image element.
   const newImage = document.createElement("img");
   // Set its source and alt text
   newImage.src = `${baseURL}${image.filename}`;
