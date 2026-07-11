@@ -9,7 +9,7 @@ function randomValueFromArray(array) {
   return array[randomIndex];
 }
 
-// Story ingredients
+// Story ingredients.
 const characters = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
 const places = ["the soup kitchen", "Disneyland", "the White House"];
 const events = [
