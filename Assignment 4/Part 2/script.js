@@ -6,8 +6,7 @@
 <!--
     Name: Harmanpreet singh 
     File: index.html
-    Date: 11 July 2026
-    Structuring content into the given format using JS.-->
+    Date: 11 July 2026-->
 <h1>Image gallery example</h1>
 
 <div class="full-img">
