@@ -58,7 +58,7 @@ class Ball {
         const distance = Math.sqrt(dx * dx + dy * dy);
 
         if (distance < this.size + ball.size) {
-          this.color = ball.color = randomRGB();
+          ball.color = this.color = randomRGB();
         }
       }
     }
@@ -69,14 +69,13 @@ const balls = [];
 
 while (balls.length < 25) {
   const size = random(10, 20);
-
   const ball = new Ball(
-    random(size, width - size),
-    random(size, height - size),
+    random(0 + size, width - size),
+    random(0 + size, height - size),
     random(-7, 7),
     random(-7, 7),
     randomRGB(),
-    size
+    size,
   );
 
   balls.push(ball);
